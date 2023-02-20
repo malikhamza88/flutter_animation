@@ -2,14 +2,14 @@ import 'dart:math' show pi;
 
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class AnimationOnePage extends StatefulWidget {
+  const AnimationOnePage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<AnimationOnePage> createState() => _AnimationOnePageState();
 }
 
-class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+class _AnimationOnePageState extends State<AnimationOnePage> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
 
